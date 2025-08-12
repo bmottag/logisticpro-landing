@@ -13,28 +13,28 @@ const navigationItems = [
 const serviceFeatures = [
   {
     icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/phone-1.svg",
-    title: "Fast Delivery",
-    description: "Quick and efficient delivery to your doorstep within hours.",
+    title: "Déménagement résidentiel",
+    description: "Nous facilitons votre transition vers un nouveau chez-vous avec un service attentionné, ponctuel et efficace. Que ce soit un appartement, une maison ou un condo, notre équipe transporte vos biens avec soin et respect.",
   },
   {
     icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/envelope-o-1.svg",
-    title: "24/7 Service",
-    description: "Round-the-clock delivery service for your convenience.",
+    title: "Déménagement commercial",
+    description: "Minimisez l’interruption de vos activités grâce à notre expertise en déménagement d’entreprises. Bureaux, commerces ou ateliers; nous planifions chaque étape pour un transfert rapide et sécurisé.",
   },
   {
     icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/pin-alt-1.svg",
-    title: "Secure Handling",
-    description: "Your packages are handled with utmost care and security.",
+    title: "Emballage et déballage",
+    description: "Gagnez du temps et protégez vos objets fragiles avec notre service d’emballage professionnel. Nous fournissons les matériaux nécessaires et nous occupons du déballage si vous le souhaitez.",
   },
   {
     icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/phone-1.svg",
-    title: "Real-time Tracking",
-    description: "Track your delivery in real-time with our advanced system.",
+    title: "Transport longue distance",
+    description: "Vous changez de ville ou de région? Nous offrons un service fiable et ponctuel pour vos déménagements interrégionaux ou interprovinciaux, partout au Québec et au Canada.",
   },
   {
     icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/envelope-o-1.svg",
-    title: "All Package Sizes",
-    description: "From small parcels to large items, we handle everything.",
+    title: "Entreposage temporaire",
+    description: "Besoin d’un espace temporaire pour vos biens? Nous proposons des solutions d’entreposage sécurisées à court ou moyen terme, idéales pendant une transition ou des rénovations.",
   },
   {
     icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/pin-alt-1.svg",
@@ -137,16 +137,14 @@ export const Home = (): JSX.Element => {
             <div className="max-w-7xl mx-auto w-full">
               <div className="max-w-lg lg:max-w-xl">
                 <h1 className="text-3xl md:text-5xl lg:text-[90px] font-medium leading-tight lg:leading-[90px] mb-4 md:mb-6 lg:mb-8">
-                  <span className="text-white">Moving with </span>
-                  <span className="text-[#00da5b]">heart,</span>
+                  <span className="text-white">Des déménagements faits avec cœur </span>
+                  <span className="text-[#00da5b]">âme,</span>
                   <span className="text-white"> </span>
-                  <span className="text-[#00da5b]">soul</span>
-                  <span className="text-white"> </span>
-                  <span className="text-[#00da5b]">and precision.</span>
+                  <span className="text-[#00da5b]">et précision</span>
                 </h1>
                 
                 <p className="text-white text-base md:text-xl lg:text-[25px] leading-relaxed lg:leading-[38px] max-w-sm lg:max-w-md">
-                  Du premier appel jusqu'à l'installation du dernier objet. vous n'êtes jamais seul.
+                  Du premier appel jusqu’à l’installation du dernier objet, vous n’êtes jamais seul. Nous sommes vos alliés, vos accompagnateurs et ceux qui trouvent des solutions.
                 </p>
               </div>
             </div>
@@ -165,14 +163,6 @@ export const Home = (): JSX.Element => {
               <p className="text-[#002319] text-lg md:text-2xl lg:text-3xl leading-relaxed max-w-4xl mx-auto">
                 We provide comprehensive delivery solutions with a focus on speed, security, and customer satisfaction.
               </p>
-            </div>
-
-            <div className="w-full mb-12 md:mb-16 lg:mb-20">
-              <img
-                className="w-full h-auto object-cover rounded-lg shadow-lg"
-                alt="Service Dashboard Screenshot"
-                src="https://c.animaapp.com/me8oy38oFyJeJz/img/screen-shot-2025-07-31-at-1-22-01-pm-1.png"
-              />
             </div>
 
             {/* Services Grid */}
