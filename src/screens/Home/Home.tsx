@@ -129,7 +129,7 @@ export const Home = (): JSX.Element => {
           <img
             className="absolute inset-0 w-full h-full object-cover"
             alt="Hero Background"
-            src="images/background.png"
+            src="/images/background.png"
           />
           
           {/* Hero Content */}
