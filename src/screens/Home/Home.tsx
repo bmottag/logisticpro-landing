@@ -227,7 +227,30 @@ export const Home = (): JSX.Element => {
       <section id="about" className="bg-[#002319] py-12 md:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+
+
+
+            <div className="flex-1 text-center lg:text-left">
+              <h2 className="text-[#00da5b] text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">
+                À propos de nous
+              </h2>
+              
+              <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
+                Chez LogistiquePro, déménager ne signifie pas seulement déplacer des objets. C’est transporter des rêves, des souvenirs et de nouveaux départs.
+              </p>
+
+              <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
+                Fondée au cœur du Québec, notre équipe est fièrement multiculturelle et profondément humaine. Nous allions efficacité, précision et chaleur humaine pour offrir une expérience vraiment différente.
+              </p>
+
+              <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
+                Chaque déménagement est une histoire. La vôtre mérite attention, respect et soutien à chaque étape. Avec nous, vous n’êtes jamais seul.
+              </p>
+
+            </div>
+
             {/* Testimonial Text */}
+/*
             <div className="flex-1 text-center lg:text-left">
               <div className="relative">
                 <img
@@ -254,7 +277,7 @@ export const Home = (): JSX.Element => {
                 </p>
               </div>
             </div>
-
+*/
             {/* Customer Photo */}
             <div className="flex-1 max-w-md lg:max-w-lg">
               <div className="relative">
