@@ -145,7 +145,7 @@ export const Home = (): JSX.Element => {
                   <span className="text-[#00da5b]">et précision</span>
                 </h1>
                 
-                <p className="text-white text-base md:text-xl lg:text-[25px] leading-relaxed lg:leading-[38px] max-w-sm lg:max-w-md">
+                <p className="text-white text-base md:text-xl lg:text-[25px] leading-relaxed lg:leading-[38px] max-w-lg lg:max-w-xl">
                   Du premier appel jusqu’à l’installation du dernier objet, vous n’êtes jamais seul. Nous sommes vos alliés, vos accompagnateurs et ceux qui trouvent des solutions.
                 </p>
               </div>
@@ -158,12 +158,13 @@ export const Home = (): JSX.Element => {
           <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
             <div className="text-center mb-8 md:mb-12 lg:mb-16">
               <h2 className="text-3xl md:text-5xl lg:text-[80px] font-semibold leading-tight lg:leading-[80px] mb-4 md:mb-6">
-                <span className="text-[#00da5b]">Why choose</span>
+                <span className="text-[#00da5b]">Pourquoi choisir  </span>
                 <br />
-                <span className="text-[#002319]">our delivery service?</span>
+                <span className="text-[#002319]">notre service?</span>
               </h2>
               <p className="text-[#002319] text-lg md:text-2xl lg:text-3xl leading-relaxed max-w-4xl mx-auto">
-                We provide comprehensive delivery solutions with a focus on speed, security, and customer satisfaction.
+                Nous proposons des solutions de livraison complètes en mettant l'accent sur la rapidité, 
+                la sécurité et la satisfaction du client.
               </p>
             </div>
 
