@@ -117,7 +117,7 @@ export const Home = (): JSX.Element => {
             variant="outline"
             className="w-20 h-8 md:w-28 md:h-9 lg:w-[145px] lg:h-[39px] bg-[#00da5b] rounded-[10px] border-2 border-solid border-[#00da5b] text-white text-sm md:text-lg lg:text-xl font-normal hover:bg-white hover:text-[#00da5b] transition-all duration-300 ease-in-out"
           >
-            Sign In
+            Estimation
           </Button>
         </div>
       </header>
@@ -129,7 +129,7 @@ export const Home = (): JSX.Element => {
           <img
             className="absolute inset-0 w-full h-full object-cover"
             alt="Hero Background"
-            src="https://c.animaapp.com/me8oy38oFyJeJz/img/shutterstock-1661663446-1.png"
+            src="images/background.png"
           />
           
           {/* Hero Content */}
