@@ -136,10 +136,11 @@ export const Home = (): JSX.Element => {
           {/* Hero Content */}
           <div className="absolute inset-0 flex flex-col justify-center px-4 md:px-8 lg:px-16">
             <div className="max-w-7xl mx-auto w-full">
-              <div className="max-w-lg lg:max-w-xl">
-                <h1 className="text-3xl md:text-5xl lg:text-[90px] font-medium leading-tight lg:leading-[90px] mb-4 md:mb-6 lg:mb-8">
-                  <span className="text-white">Des déménagements faits avec cœur </span>
-                  <span className="text-[#00da5b]">âme,</span>
+              <div className="max-w-xl lg:max-w-4xl">
+                <h1 className="text-3xl md:text-5xl lg:text-[80px] font-medium leading-tight lg:leading-[80px] mb-4 md:mb-6 lg:mb-8">
+                  <span className="text-white">Des déménagements faits </span>
+                  <span className="text-white">avec cœur, </span>
+                  <span className="text-[#00da5b]">âme</span>
                   <span className="text-white"> </span>
                   <span className="text-[#00da5b]">et précision</span>
                 </h1>
