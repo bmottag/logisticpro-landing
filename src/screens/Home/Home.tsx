@@ -38,11 +38,6 @@ const serviceFeatures = [
     title: "Entreposage temporaire",
     description: "Besoin d’un espace temporaire pour vos biens? Nous proposons des solutions d’entreposage sécurisées à court ou moyen terme, idéales pendant une transition ou des rénovations.",
   },
-  {
-    icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/pin-alt-1.svg",
-    title: "Professional Team",
-    description: "Experienced and trained delivery professionals at your service.",
-  },
 ];
 
 const footerServices = [
@@ -249,35 +244,6 @@ export const Home = (): JSX.Element => {
 
             </div>
 
-            {/* Testimonial Text */}
-<!--
-            <div className="flex-1 text-center lg:text-left">
-              <div className="relative">
-                <img
-                  className="w-12 h-12 lg:w-[70px] lg:h-[54px] mb-4 mx-auto lg:mx-0"
-                  alt="Opening quote"
-                  src="https://c.animaapp.com/me8oy38oFyJeJz/img/----1.svg"
-                />
-                
-                <blockquote className="text-2xl md:text-3xl lg:text-[49.1px] font-medium leading-tight lg:leading-[54.5px] mb-6">
-                  <span className="text-white">I can only say that it </span>
-                  <span className="text-[#00da5b]">was the best moving experience I have ever had.</span>
-                </blockquote>
-                
-                <img
-                  className="w-12 h-12 lg:w-[70px] lg:h-[53px] ml-auto lg:ml-0 lg:float-right"
-                  alt="Closing quote"
-                  src="https://c.animaapp.com/me8oy38oFyJeJz/img/---.svg"
-                />
-              </div>
-              
-              <div className="mt-8 lg:mt-12">
-                <p className="text-white text-xl md:text-2xl lg:text-3xl font-medium">
-                  Marie Trebouis
-                </p>
-              </div>
-            </div>
--->
             {/* Customer Photo */}
             <div className="flex-1 max-w-md lg:max-w-lg">
               <div className="relative">
