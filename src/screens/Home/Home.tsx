@@ -250,7 +250,7 @@ export const Home = (): JSX.Element => {
             </div>
 
             {/* Testimonial Text */}
-/*
+<!--
             <div className="flex-1 text-center lg:text-left">
               <div className="relative">
                 <img
@@ -277,7 +277,7 @@ export const Home = (): JSX.Element => {
                 </p>
               </div>
             </div>
-*/
+-->
             {/* Customer Photo */}
             <div className="flex-1 max-w-md lg:max-w-lg">
               <div className="relative">
