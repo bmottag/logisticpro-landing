@@ -3,6 +3,7 @@ import { Button } from "../../components/ui/button";
 import { Card, CardContent } from "../../components/ui/card";
 import { Input } from "../../components/ui/input";
 import { Separator } from "../../components/ui/separator";
+import backgroundImg from '../../assets/background.png';
 
 const navigationItems = [
   { label: "Home", href: "#home" },
@@ -129,7 +130,7 @@ export const Home = (): JSX.Element => {
           <img
             className="absolute inset-0 w-full h-full object-cover"
             alt="Hero Background"
-            src="/images/background.png"
+            src={backgroundImg}
           />
           
           {/* Hero Content */}
