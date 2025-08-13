@@ -4,6 +4,7 @@ import { Card, CardContent } from "../../components/ui/card";
 import { Input } from "../../components/ui/input";
 import { Separator } from "../../components/ui/separator";
 import backgroundImg from '../../assets/background.png';
+import logoImg from '../../assets/logo.png';
 
 const navigationItems = [
   { label: "Home", href: "#home" },
@@ -87,7 +88,7 @@ export const Home = (): JSX.Element => {
           <img
             className="w-32 h-4 md:w-48 md:h-5 lg:w-[269px] lg:h-[30px]"
             alt="LogistiquePro Logo"
-            src="https://c.animaapp.com/me8oy38oFyJeJz/img/asset-6-1.svg"
+            src={logoImg}
           />
 
           {/* Desktop Navigation */}
