@@ -228,25 +228,31 @@ export const Home = (): JSX.Element => {
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
 
-
-
             <div className="flex-1 text-center lg:text-left">
-              <h2 className="text-[#00da5b] text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">
-                À propos de nous
-              </h2>
+              <div className="relative">
+                <img
+                  className="w-12 h-12 lg:w-[70px] lg:h-[54px] mb-4 mx-auto lg:mx-0"
+                  alt="Opening quote"
+                  src="https://c.animaapp.com/me8oy38oFyJeJz/img/----1.svg"
+                />
+                
+                <blockquote className="text-2xl md:text-3xl lg:text-[49.1px] font-medium leading-tight lg:leading-[54.5px] mb-6">
+                  <span className="text-white">I can only say that it </span>
+                  <span className="text-[#00da5b]">was the best moving experience I have ever had.</span>
+                </blockquote>
+                
+                <img
+                  className="w-12 h-12 lg:w-[70px] lg:h-[53px] ml-auto lg:ml-0 lg:float-right"
+                  alt="Closing quote"
+                  src="https://c.animaapp.com/me8oy38oFyJeJz/img/---.svg"
+                />
+              </div>
               
-              <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
-                Chez LogistiquePro, déménager ne signifie pas seulement déplacer des objets. C’est transporter des rêves, des souvenirs et de nouveaux départs.
-              </p>
-
-              <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
-                Fondée au cœur du Québec, notre équipe est fièrement multiculturelle et profondément humaine. Nous allions efficacité, précision et chaleur humaine pour offrir une expérience vraiment différente.
-              </p>
-
-              <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
-                Chaque déménagement est une histoire. La vôtre mérite attention, respect et soutien à chaque étape. Avec nous, vous n’êtes jamais seul.
-              </p>
-
+              <div className="mt-8 lg:mt-12">
+                <p className="text-white text-xl md:text-2xl lg:text-3xl font-medium">
+                  Marie Trebouis
+                </p>
+              </div>
             </div>
 
             {/* Customer Photo */}
@@ -271,77 +277,33 @@ export const Home = (): JSX.Element => {
       {/* Call to Action Section */}
       <section className="bg-[#00da5b] py-12 md:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
-          <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-16">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
             {/* CTA Content */}
-            <div className="flex-1">
-              <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-semibold mb-8 text-center lg:text-left">
-                Conseils essentiels pour réussir votre déménagement
+            <div className="flex-1 text-center lg:text-left">
+              <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">
+                Ready to Experience Fast Delivery?
               </h2>
               
-              {/* Tips List */}
-              <div className="space-y-6">
-                {/* Tip 1 */}
-                <div className="flex gap-4 items-start">
-                  <div className="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-[#00da5b] text-lg md:text-xl font-bold">1</span>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-white text-lg md:text-xl font-semibold mb-2">
-                      Planifiez tôt, réservez à temps
-                    </h3>
-                    <p className="text-white/90 text-base md:text-lg leading-relaxed">
-                      Dès que vous connaissez votre date, contactez-nous! Réserver quelques semaines à l'avance vous garantit disponibilité, flexibilité et moins de stress.
-                    </p>
-                  </div>
-                </div>
+              <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
+                Join Thousands of satisfied customers who trust us with their delivery needs. Get started today and enjoy reliable, fast delivery service.
+              </p>
 
-                {/* Tip 2 */}
-                <div className="flex gap-4 items-start">
-                  <div className="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-[#00da5b] text-lg md:text-xl font-bold">2</span>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-white text-lg md:text-xl font-semibold mb-2">
-                      Faites le tri avant d'emballer
-                    </h3>
-                    <p className="text-white/90 text-base md:text-lg leading-relaxed">
-                      Déménager, c'est aussi l'occasion de se débarrasser du superflu. Donnez, vendez ou recyclez ce que vous n'utilisez plus — vous gagnerez du temps et de l'espace.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Tip 3 */}
-                <div className="flex gap-4 items-start">
-                  <div className="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-[#00da5b] text-lg md:text-xl font-bold">3</span>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-white text-lg md:text-xl font-semibold mb-2">
-                      Étiquetez tout clairement
-                    </h3>
-                    <p className="text-white/90 text-base md:text-lg leading-relaxed">
-                      Indiquez le contenu et la pièce de destination sur chaque boîte. Cela rend le déchargement plus rapide, plus organisé… et votre installation beaucoup plus simple.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Tip 4 */}
-                <div className="flex gap-4 items-start">
-                  <div className="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-[#00da5b] text-lg md:text-xl font-bold">4</span>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-white text-lg md:text-xl font-semibold mb-2">
-                      Gardez vos essentiels à portée de main
-                    </h3>
-                    <p className="text-white/90 text-base md:text-lg leading-relaxed">
-                      Préparez une boîte ou un sac avec vos objets essentiels pour les premières 24h (documents, chargeurs, produits d'hygiène, vêtements, etc.). On appelle ça la "boîte de survie".
-                    </p>
-                  </div>
-                </div>
+              {/* Email Signup */}
+              <div className="flex flex-col sm:flex-row gap-2 mb-4 max-w-lg mx-auto lg:mx-0">
+                <Input
+                  placeholder="Enter your email address"
+                  className="flex-1 h-12 bg-white rounded-[14px] shadow-[0px_4px_4px_#00000040] border-0 placeholder:text-[#829e8e] placeholder:font-semibold placeholder:text-lg"
+                />
+                <Button className="h-12 px-6 bg-white rounded-[14px] shadow-[0px_4px_4px_#00000040] text-[#00da5b] font-semibold text-lg hover:bg-gray-100 whitespace-nowrap">
+                  Get Started
+                </Button>
               </div>
+
+              <p className="text-white text-lg">
+                No setup fees. Cancel anytime
+              </p>
             </div>
-            
+
             {/* CTA Image and Stats */}
             <div className="flex-1 max-w-md lg:max-w-lg relative">
               <img
