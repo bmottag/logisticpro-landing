@@ -281,27 +281,20 @@ export const Home = (): JSX.Element => {
             {/* CTA Content */}
             <div className="flex-1 text-center lg:text-left">
               <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">
-                Ready to Experience Fast Delivery?
+                Estimez le coût de votre déménagement!
               </h2>
               
               <p className="text-white text-lg md:text-xl leading-relaxed mb-6">
-                Join Thousands of satisfied customers who trust us with their delivery needs. Get started today and enjoy reliable, fast delivery service.
+                Envoyez-nous vos informations et obtenez une estimation détaillée du coût de votre déménagement en cliquant sur le bouton ci-dessous. C'est simple et rapide !
               </p>
 
               {/* Email Signup */}
               <div className="flex flex-col sm:flex-row gap-2 mb-4 max-w-lg mx-auto lg:mx-0">
-                <Input
-                  placeholder="Enter your email address"
-                  className="flex-1 h-12 bg-white rounded-[14px] shadow-[0px_4px_4px_#00000040] border-0 placeholder:text-[#829e8e] placeholder:font-semibold placeholder:text-lg"
-                />
                 <Button className="h-12 px-6 bg-white rounded-[14px] shadow-[0px_4px_4px_#00000040] text-[#00da5b] font-semibold text-lg hover:bg-gray-100 whitespace-nowrap">
-                  Get Started
+                  Estimation
                 </Button>
               </div>
 
-              <p className="text-white text-lg">
-                No setup fees. Cancel anytime
-              </p>
             </div>
 
             {/* CTA Image and Stats */}
