@@ -259,7 +259,7 @@ export const Home = (): JSX.Element => {
             <div className="flex-1 max-w-md lg:max-w-lg">
               <div className="relative">
                 <img
-                  className="w-full h-auto object-cover rounded-lg"
+                  className="w-full h-auto object-cover"
                   alt="Decorative stripes"
                   src="https://c.animaapp.com/me8oy38oFyJeJz/img/stripes-1.png"
                 />
