@@ -38,6 +38,11 @@ const serviceFeatures = [
     title: "Entreposage temporaire",
     description: "Besoin d’un espace temporaire pour vos biens? Nous proposons des solutions d’entreposage sécurisées à court ou moyen terme, idéales pendant une transition ou des rénovations.",
   },
+  {
+    icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/envelope-o-1.svg",
+    title: "Assemblage et installation",
+    description: "Pour une installation facile, notre équipe s'occupe de tout. Nous montons vos meubles et installons vos appareils électroménagers avec soin et précision, vous permettant de vous sentir chez vous dès le premier jour.",
+  },
 ];
 
 const footerServices = [
@@ -135,8 +140,8 @@ export const Home = (): JSX.Element => {
               <div className="max-w-xl lg:max-w-4xl">
                 <h1 className="text-3xl md:text-5xl lg:text-[80px] font-medium leading-tight lg:leading-[80px] mb-4 md:mb-6 lg:mb-8">
                   <span className="text-white">Des déménagements faits </span>
-                  <span className="text-white">avec cœur, </span>
-                  <span className="text-[#00da5b]">âme</span>
+                  <span className="text-white">avec </span>
+                  <span className="text-[#00da5b]">cœur, âme</span>
                   <span className="text-white"> </span>
                   <span className="text-[#00da5b]">et précision</span>
                 </h1>
