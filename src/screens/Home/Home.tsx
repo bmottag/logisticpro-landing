@@ -212,10 +212,9 @@ export const Home = (): JSX.Element => {
             <div className="max-w-7xl mx-auto w-full">
               <div className="max-w-lg lg:max-w-xl">
                 <h2 className="text-3xl md:text-5xl lg:text-[90px] font-normal leading-tight lg:leading-[90px]">
-                  <span className="text-white">Fast & Reliable</span>
+                  <span className="text-white">Chaque départ,</span>
                   <br />
-                  <span className="text-white">Delivery </span>
-                  <span className="text-[#00da5b]">at Your Fingertips</span>
+                  <span className="text-[#00da5b]">une nouvelle histoire</span>
                 </h2>
               </div>
             </div>
