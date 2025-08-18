@@ -40,8 +40,8 @@ const serviceFeatures = [
   },
   {
     icon: "https://c.animaapp.com/me8oy38oFyJeJz/img/envelope-o-1.svg",
-    title: "Assemblage et installation",
-    description: "Pour une installation facile, notre équipe s'occupe de tout. Nous montons vos meubles et installons vos appareils électroménagers avec soin et précision, vous permettant de vous sentir chez vous dès le premier jour.",
+    title: "Installations spéciales",
+    description: "Confiez-nous le montage et l’installation de vos espaces résidentiels ou professionnels. Notre équipe assure un service précis, soigné et efficace pour chaque projet.",
   },
 ];
 
